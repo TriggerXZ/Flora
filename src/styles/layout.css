@@ -1,0 +1,15 @@
+body{
+    background: #BCFEBD;
+    color: whitesmoke;
+}
+
+li {
+    padding: 10px;
+}
+
+.lista{
+    margin-left: 800px;
+    display: flex;
+    margin-top: 25px;
+    font-size: 20px;
+}
