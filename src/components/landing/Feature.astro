@@ -1,0 +1,14 @@
+---
+import feature from '../config/features.json'
+---
+
+<div class="grid grid-cols-3">
+    {
+        feature.map((feature) => (
+            <div class="font-bold bg-green-400 rounded-md mx-5 px-3">
+                <h2 class="text-center">{feature.title}</h2>
+                <p class="py-3">{feature.description}</p>
+            </div>
+        ))
+    }
+</div>

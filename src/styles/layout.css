@@ -1,15 +1,36 @@
 body{
     background: #BCFEBD;
-    color: whitesmoke;
+    color: #017E37;
+    font-family: 'Ysabeau', sans-serif;
 }
+
 
 li {
     padding: 10px;
 }
 
+
+img{
+    border-radius: 10px;
+    width: 400px;
+    max-height: 550px;
+    transition: all 0.5s ease;
+}
+
 .lista{
-    margin-left: 800px;
+    margin-left: 700px;
     display: flex;
-    margin-top: 25px;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.logo{
+    width: 80px;
+    height: 100px;
+}
+
+
+.more-img:hover{
+    width: 404px;
+    box-shadow: 0 0 30px #00521F;
 }
