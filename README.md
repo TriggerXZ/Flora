@@ -1,4 +1,5 @@
-# Astro Starter Kit: Minimal
+# The Makias Corp.
+Proyecto para creacion de apps webs
 
 ```
 npm create astro@latest -- --template minimal
