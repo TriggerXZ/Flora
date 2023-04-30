@@ -1,7 +1,16 @@
 ---
 import Layout from '../layout/layout.astro'
+
+//Components
+import Header from '../components/Landing_page/Header.astro'
+import Footer from '../components/Landing_page/Footer.astro'
+import More from '../components/Landing_page/More.astro'
 ---
 
-<Layout>
-	<h1>Hola</h1>
+<Layout title="Inicio">
+	<Header/>
+
+	<More/>
+	
+	<Footer/>
 </Layout>
