@@ -38,9 +38,9 @@ body{
 }
 
 .container_img{
-    max-width: 900px;
+    max-width: 1050px;
     max-height: 900px;
-    margin-left: 16%;
+    margin-left: 10.5%;
     padding: 10px;
     border-radius: 20px;
 }
@@ -57,29 +57,3 @@ body{
     max-height: 100%;
     max-width: 100%;
 }
-
-.cart-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .cart-table th,
-  .cart-table td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .cart-table th {
-    background-color: #f2f2f2;
-  }
-  
-  .cart-item-remove button {
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
