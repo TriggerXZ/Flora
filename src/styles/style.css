@@ -57,3 +57,29 @@ body{
     max-height: 100%;
     max-width: 100%;
 }
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .cart-item-remove button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
