@@ -1,0 +1,41 @@
+---
+import productos from "../Jsons/productos.json";
+---
+
+<section class="relative">
+    <img class="bg" src="images/bg.png" alt="" />
+    <h1 class="text-center text-4xl my-2 py-6 font-bold relative">
+        Inspiramos y compartimos el amor por las plantas
+    </h1>
+    <div class="flex flex-initial gap-4 relative">
+        <img
+            src="images/2.jpg"
+            alt=""
+            class="ml-52 rounded-xl w-96 shadow-2xl"
+        />
+        <div class="grid text-lef mx-52">
+            <p class="text-2xl font-bold max-w-md">
+                Encuentra las plantas ideales para cada espacio, recíbelas en la
+                puerta de tu casa y aprende a cuidarlas con Flora
+            </p>
+            <button class="bton" disabled="disabled">Planta con FLORA</button>
+        </div>
+    </div>
+</section>
+
+<section class="mt-5 bg-green-300">
+    <h2 class="text-center text-5xl p-5">Nuestros Productos</h2>
+    <div class="container_img my-5 gap-6 grid grid-cols-3">
+        {
+            productos.map((productos) => (
+                <div class="container_img bg-white">
+                    <img src={productos.img} alt="" class="img_index m-auto" />
+                    <h2 class="text-center font-bold text-3xl my-3">
+                        {productos.title}
+                    </h2>
+                    <p class="text-center text-xl">{productos.description}</p>
+                </div>
+            ))
+        }
+    </div>
+</section>
