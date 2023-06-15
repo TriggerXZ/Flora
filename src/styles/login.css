@@ -1,0 +1,62 @@
+.login-container{
+    padding: 30px;
+    background-color: #6af5d58a;
+    border-radius: 5px 0px 0px 5px;
+    float: right;
+    width: 50%;
+    height: 41pc;
+    overflow: hidden;
+}
+
+.login-title{
+    margin-top: 5pc;
+    margin-left: 20pc;
+    font-size: 40px;
+
+}
+
+
+.username, .password{
+    margin: 2pc 0px 10px 18pc;
+    border-radius: 2px;
+}
+
+
+
+.password{
+    display: block;
+}
+
+.submit{
+    width: 90px;
+    background-color: aqua;
+    border-radius: 6px;
+    border: 3px solid white;    
+    margin: 2pc 0px 10px 20pc;
+}
+
+.submit:hover{
+    background-color: rgba(0, 0, 0, 0.177);
+}
+
+.registe-label{
+    margin-left: 18pc;
+}
+
+.register-link:hover{
+    color: rgb(71, 149, 149);
+}
+
+.register-section{
+    margin: 2pc 0px 10px 17pc; 
+    font-size: 20px;
+}
+
+.forgot-section{
+    margin: 2pc 0px 10px 16pc; 
+    font-size: 20px;
+}
+
+.forgot-link:hover{
+    color: rgb(71, 149, 149);
+}
