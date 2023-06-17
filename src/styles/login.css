@@ -9,52 +9,63 @@
 }
 
 .login-title{
-    margin-top: 5pc;
-    margin-left: 20pc;
+    margin: 5pc 20pc 1pc ;
     font-size: 40px;
 
 }
 
-
 .username, .password{
-    margin: 2pc 0px 10px 18pc;
+    width: 190px;
+    color: black;
+    margin: 2pc 0px 10px 17pc;
     border-radius: 2px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    
+}
+
+.username:focus , .password:focus{
+    outline: none;
+    transform: scale(1.2);
 }
 
 
+.username::placeholder, .password::placeholder{
+    text-align: center;
+    color: rgb(142, 137, 137);
+}
 
 .password{
     display: block;
 }
 
 .submit{
-    width: 90px;
-    background-color: aqua;
+    width: 190px;
+    background-color: #6af5a1;
     border-radius: 6px;
     border: 3px solid white;    
-    margin: 2pc 0px 10px 20pc;
+    margin: 2pc 0px 2pc 17pc;
 }
 
 .submit:hover{
-    background-color: rgba(0, 0, 0, 0.177);
+    transform: scale(1.3);
+    transition-duration: 1s;
+    background-color: rgba(0, 255, 60, 0.653);
 }
 
-.registe-label{
-    margin-left: 18pc;
-}
 
 .register-link:hover{
     color: rgb(71, 149, 149);
 }
 
-.register-section{
-    margin: 2pc 0px 10px 17pc; 
+.register-section, .forgot-section{
+    width: 250px;
+    margin: 2pc 15pc; 
     font-size: 20px;
 }
 
-.forgot-section{
-    margin: 2pc 0px 10px 16pc; 
-    font-size: 20px;
+.register-section{
+    margin-left: 16pc;
 }
 
 .forgot-link:hover{
